@@ -17,3 +17,18 @@ Python nacque nel 1991 (grazie a Guido van Rossum) come successore del linguaggi
 
 ## 2. Le grandi compagnie usano Python
 Alcune delle più grandi compagnie, tra le quali: Uber, PayPal, Google, Facebook, Instagram, Netflix, Dropbox e Reddit usano questo linguaggio per lo sviluppo dei loro applicativi. Python viene usato anche nella robotica, nei [sistemi embedded](https://en.wikipedia.org/wiki/Embedded_system) e nei sistemi di data analytics.
+
+## 3. Machine learning
+Cosa possiamo fare con Python? Molto! Le sue librerie sono fatte per lavorare con altri popolari linguaggi di programmazione e questo lo rende ottimo anche per il machine learning. [Google TensorFlow](https://www.tensorflow.org/) lavora in primis con Python. Proprio per il fatto che reti neurali e machine learning sono in continua evoluzione ed espansione questo fa di Python un linguaggio di programmazione in grado di durare ancora per molti anni.
+
+## 4. Supporto
+Python vanta un ottimo supporto a livello di community, basti pensare che su [Stack Overflow](https://stackoverflow.com/questions/tagged/python) vi sono più di 1 milione di domande con altrettante risposte.
+
+## 5. Linguaggio volto all'apprendimento
+La semplicità  di lettura e scrittura del codice fa sì che sia insegnato agli studenti di tutto il mondo e principalmente nelle scuole americane. L'user experience è diventata fondamentale al giorno oggi!
+
+## 6. Open Source
+Python è  Open Source e GPL compatibile.
+
+## E ora... via!!
+Dopo aver elencato questi 6 principali punti ti chiedo: perché non iniziare e supportare questo progetto?
