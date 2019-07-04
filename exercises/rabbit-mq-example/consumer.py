@@ -1,22 +1,23 @@
 import pika
 
-print('Collegamento a RabiitMQ...')
+print('Connect to RabittMQ...')
+print('Insert your RabbitMQ credentials...')
 
-username = 'manager'
-password = 'manager'
+username = input('Insert username: ')
+password = input('Insert password: ')
+host = input('Insert host: ')
 credentials = pika.PlainCredentials(username, password)
-params = pika.ConnectionParameters(host='localhost', credentials=credentials)
+params = pika.ConnectionParameters(host=host, credentials=credentials)
 connection = pika.BlockingConnection(parameters=params)
 channel = connection.channel()
-channel.queue_declare('worker_queue')
+queue_name = input('Queue name: ')
+channel.queue_declare(queue_name)
 
-print('...eseguito')
+print('...successful connection')
 
 def callback(channel, method, properties, body):
-    print('Ricevuto messaggio %s' % body)
+    print('Received %s' % body)
 
 print(' [*] Waiting for messages. To exit press CTRL+C')
-channel.basic_consume(on_message_callback=callback, queue='worker_queue', auto_ack=True)
+channel.basic_consume(on_message_callback=callback, queue=queue_name, auto_ack=True)
 channel.start_consuming()
-
-connection.close()
