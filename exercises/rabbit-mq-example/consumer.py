@@ -15,9 +15,13 @@ channel.queue_declare(queue_name)
 
 print('...successful connection')
 
+
 def callback(channel, method, properties, body):
     print('Received %s' % body)
 
+
 print(' [*] Waiting for messages. To exit press CTRL+C')
-channel.basic_consume(on_message_callback=callback, queue=queue_name, auto_ack=True)
+channel.basic_consume(on_message_callback=callback,
+                      queue=queue_name,
+                      auto_ack=True)
 channel.start_consuming()
