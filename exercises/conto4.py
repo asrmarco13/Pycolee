@@ -28,7 +28,7 @@
 # il numero del conto e il saldo.
 # Definire un metodo statico bonifico in GestoreContiCorrenti
 # che accetta in input 3 parametri: sorgente, destinazione,
-# importo. Il metodo bonifico preleva del denaro 
+# importo. Il metodo bonifico preleva del denaro
 # dal conto sorgente e lo accredita nel conto di
 # destinazione.
 
