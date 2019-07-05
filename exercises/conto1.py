@@ -27,11 +27,11 @@ class ContoCorrente:
 
     def descrizione(self):
         print('Nome titolare: ' 
-                + self.nome 
-                + ', conto corrente: ' 
-                + self.conto 
-                + ', saldo: ' 
-                + str(self.saldo))
+              + self.nome 
+              + ', conto corrente: ' 
+              + self.conto 
+              + ', saldo: ' 
+              + str(self.saldo))
 
 
 conto_corrente1 = ContoCorrente('Marco Orfei', '000123456', 1000.00)
