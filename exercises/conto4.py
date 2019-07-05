@@ -31,15 +31,17 @@
 # importo. Il metodo bonifico preleva del denaro 
 # dal conto sorgente e lo accredita nel conto di
 # destinazione.
+
+
 class Conto:
-    def __init__(self, nome, conto): 
+    def __init__(self, nome, conto):
         self.nome = nome
         self.conto = conto
 
 
 class ContoCorrente(Conto):
     def __init__(self, nome, conto, importo):
-        super().__init__(nome, conto) 
+        super().__init__(nome, conto)
         self.__saldo = importo
 
     @property
@@ -50,7 +52,7 @@ class ContoCorrente(Conto):
     def saldo(self, importo):
         self.preleva(self.__saldo)
         self.deposita(importo)
-    
+
     def preleva(self, importo):
         self.__saldo -= importo
 
@@ -58,7 +60,13 @@ class ContoCorrente(Conto):
         self.__saldo += importo
 
     def descrizione(self):
-        print('Nome titolare: ' + self.nome + ', conto corrente: ' + self.conto + ', saldo: ' + str(self.__saldo))
+        print('Nome titolare: ' +
+              self.nome +
+              ', conto corrente: ' +
+              self.conto +
+              ', saldo: ' +
+              str(self.__saldo))
+
 
 class GestoreContiCorrenti:
     @staticmethod
