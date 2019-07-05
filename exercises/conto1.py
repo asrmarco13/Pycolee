@@ -12,12 +12,13 @@
 # Definire un metodo descrizione che stampa il nome del titolare,
 # il numero del conto e il saldo.
 
+
 class ContoCorrente:
     def __init__(self, nome, conto, importo): 
         self.nome = nome
         self.conto = conto
         self.saldo = importo
-    
+
     def preleva(self, importo):
         self.saldo -= importo
 
@@ -25,7 +26,12 @@ class ContoCorrente:
         self.saldo += importo
 
     def descrizione(self):
-        print('Nome titolare: ' + self.nome + ', conto corrente: ' + self.conto + ', saldo: ' + str(self.saldo))
+        print('Nome titolare: ' 
+                + self.nome 
+                + ', conto corrente: ' 
+                + self.conto 
+                + ', saldo: ' 
+                + str(self.saldo))
 
 
 conto_corrente1 = ContoCorrente('Marco Orfei', '000123456', 1000.00)
