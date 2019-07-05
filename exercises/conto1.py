@@ -26,12 +26,12 @@ class ContoCorrente:
         self.saldo += importo
 
     def descrizione(self):
-        print('Nome titolare: ' 
-              + self.nome 
-              + ', conto corrente: ' 
-              + self.conto 
-              + ', saldo: ' 
-              + str(self.saldo))
+        print('Nome titolare: ' +
+              self.nome +
+              ', conto corrente: ' +
+              self.conto +
+              ', saldo: ' +
+              str(self.saldo))
 
 
 conto_corrente1 = ContoCorrente('Marco Orfei', '000123456', 1000.00)
