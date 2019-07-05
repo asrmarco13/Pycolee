@@ -58,7 +58,7 @@ conto_corrente1.descrizione()
 conto_corrente2.descrizione()
 
 print('Definite le property invoco' +
-        'il setter saldo e stampo i nuovi conti corrente')
+      'il setter saldo e stampo i nuovi conti corrente')
 conto_corrente1.saldo = 5000
 conto_corrente2.saldo = 3000
 

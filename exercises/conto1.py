@@ -14,7 +14,7 @@
 
 
 class ContoCorrente:
-    def __init__(self, nome, conto, importo): 
+    def __init__(self, nome, conto, importo):
         self.nome = nome
         self.conto = conto
         self.saldo = importo
