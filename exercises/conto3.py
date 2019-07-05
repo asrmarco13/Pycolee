@@ -25,15 +25,17 @@
 # invocato.
 # Definire un metodo descrizione che stampa il nome del titolare,
 # il numero del conto e il saldo.
+
+
 class Conto:
-    def __init__(self, nome, conto): 
+    def __init__(self, nome, conto):
         self.nome = nome
         self.conto = conto
 
 
 class ContoCorrente(Conto):
     def __init__(self, nome, conto, importo):
-        super().__init__(nome, conto) 
+        super().__init__(nome, conto)
         self.__saldo = importo
 
     @property
@@ -44,7 +46,7 @@ class ContoCorrente(Conto):
     def saldo(self, importo):
         self.preleva(self.__saldo)
         self.deposita(importo)
-    
+
     def preleva(self, importo):
         self.__saldo -= importo
 
@@ -52,7 +54,12 @@ class ContoCorrente(Conto):
         self.__saldo += importo
 
     def descrizione(self):
-        print('Nome titolare: ' + self.nome + ', conto corrente: ' + self.conto + ', saldo: ' + str(self.__saldo))
+        print('Nome titolare: ' +
+              self.nome +
+              ', conto corrente: ' +
+              self.conto +
+              ', saldo: ' +
+              str(self.__saldo))
 
 
 conto_corrente1 = ContoCorrente('Marco Orfei', '000123456', 1000)
@@ -61,7 +68,8 @@ conto_corrente2 = ContoCorrente('Pietro Ciaco', '100123456', 500)
 conto_corrente1.descrizione()
 conto_corrente2.descrizione()
 
-print('Definite le property invoco il setter saldo e stampo i nuovi conti corrente')
+print('Definite le property' +
+      'invoco il setter saldo e stampo i nuovi conti corrente')
 conto_corrente1.saldo = 5000
 conto_corrente2.saldo = 3000
 
