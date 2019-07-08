@@ -7,10 +7,6 @@
 2. [Perché Python?](#perche-python)
 3. [Lezioni](#lezioni)
 4. [Esercizi](#esercizi)
-	1. [Hello World](#hello-world)
-	2. [Conto Corrente](#conto-corrente)
-	3. [Message broker](#message-broker)
-	4. [Mongo DB](#mongo-db)
 
 ### **Introduzione**
 
