@@ -3,16 +3,13 @@ from pymongo import MongoClient
 
 # connect to mongodb
 print('Connect to Database, insert credentials...')
-username = input('Insert username: ') 
+username = input('Insert username: ')
 password = input('Insert password: ')
 host = input('Insert host: ')
 port = input('Insert host port: ')
 port = int(port)
-client = MongoClient(
-       host=host,
-       port=port,
-       username=username,
-       password=password)
+client = MongoClient(host=host,port=port,
+                     username=username,password=password)
 print('...successful connection')
 
 # getting database
