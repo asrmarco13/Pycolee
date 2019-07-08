@@ -8,9 +8,8 @@ password = input('Insert password: ')
 host = input('Insert host: ')
 port = input('Insert host port: ')
 port = int(port)
-client = MongoClient(
-       host=host, port=port,
-       username=username, password=password)
+client = MongoClient(host=host, port=port,
+                     username=username, password=password)
 print('...successful connection')
 
 # getting database
