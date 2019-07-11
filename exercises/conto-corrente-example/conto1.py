@@ -1,18 +1,3 @@
-# Testo dell'esercizio
-# Definire una classe ContoCorrente sottoclasse di Object.
-# Definire il costruttore di ContoCorrente che accetta
-# in input 3 parametri: nome, conto e importo. Gli attributi
-# di istanza sono nome, conto e saldo.
-# Definire un metodo preleva che accetta in input un importo
-# che preleverà dal saldo una certa somma ogni volta che verrà
-# invocato.
-# Definire un metodo deposita che accetta in unput un importo
-# che aggiungerà una certa somma ogni volta che verrà
-# invocato.
-# Definire un metodo descrizione che stampa il nome del titolare,
-# il numero del conto e il saldo.
-
-
 class ContoCorrente:
     def __init__(self, nome, conto, importo):
         self.nome = nome
