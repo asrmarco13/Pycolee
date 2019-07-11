@@ -1,32 +1,3 @@
-# Testo dell'esercizio
-# Definire una classe Conto sottoclasse di Object
-# Definire una classe ContoCorrente sottoclasse di Conto.
-# Definire il costruttore di Conto che accetta
-# in input 2 parametri: nome e conto. Gli attributi
-# di istanza sono nome e conto.
-# Definire il costruttore di ContoCorrente che accetta
-# in input 3 parametri: nome, conto e importo. I parametri nome e conto
-# devono essere passati alla superclasse mentre la
-# variabile saldo deve essere un attributo dell'istanza
-# ContoCorrente.
-# Definire il saldo come attributo nascosto.
-# Definire una property getter, di nome saldo, che ritorna
-# il saldo.
-# Definire una property setter, di nome saldo, che modifica
-# l'attributo saldo.
-# All'interno del metodo setter chiamare il metodo che sottrae
-# il saldo portandolo a zero. Chiamare poi il metodo deposita
-# che definisce il nuovo importo pari al saldo.
-# Definire un metodo preleva che accetta in input un importo
-# che preleverà dal saldo una certa somma ogni volta che verrà
-# invocato.
-# Definire un metodo deposita che accetta in unput un importo
-# che aggiungerà una certa somma ogni volta che verrà
-# invocato.
-# Definire un metodo descrizione che stampa il nome del titolare,
-# il numero del conto e il saldo.
-
-
 class Conto:
     def __init__(self, nome, conto):
         self.nome = nome
