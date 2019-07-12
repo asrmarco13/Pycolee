@@ -1,0 +1,6 @@
+# Esercizi
+
+##	1. [Hello World](./hello-world.md)
+##	2. [Statements](./python-statements/if-statements.md)
+##	3. [Classi e oggetti](./classes-and-object/classes-and-object.md)
+##	4. [Conto Corrente](./conto-corrente-example/conto-corrente.md)

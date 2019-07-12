@@ -49,7 +49,4 @@ Dopo aver elencato questi 6 principali punti ti chiedo: perché non iniziare e s
 
 ### Esercizi
 
-####	1. [Hello World](./exercises/hello-world.md)
-####	2. [Conto Corrente](./exercises/conto-corrente-example/conto-corrente.md)
-####	3. [Message broker](./exercises/rabbit-mq-example/rabbit-mq.md)
-####	4. [Mongo DB](./exercises/mongo-db-example/mongo-db.md)
+Per visionare l'indice degli esercizi cliccare [qui](./exercises/indice.md)
