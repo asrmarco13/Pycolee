@@ -17,14 +17,13 @@ class Store:
 
     @classmethod
     def franchise(cls, store):
-        store.name += ' - franchise'
-        return store
+        return cls(store.name + ' - franchise')
 
     @staticmethod
     def store_details(store) -> str:
         total_price = store.stock_price()
         string_details = '{}, total stock price: {}'.format(store.name,
-                                                            total_price)
+                                                            int(total_price))
         return string_details
 
 
