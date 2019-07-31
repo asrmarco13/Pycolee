@@ -1,0 +1,13 @@
+aniso8601==7.0.0
+Click==7.0
+Flask==1.1.1
+Flask-JWT==0.3.2
+Flask-RESTful==0.3.7
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+pyfiglet==0.8.post1
+PyJWT==1.4.2
+pytz==2019.1
+six==1.12.0
+Werkzeug==0.15.5
