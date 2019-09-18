@@ -4,6 +4,7 @@
 1. [Introduzione](#introduzione)
 2. [Primo esercizio REST con Flask](#primo-esercizio-rest-con-flask)
 3. [Secondo esercizio RESTful con Flask](#secondo-esercizio-restful-con-flask)
+4. [Terzo esercizio RESTful con SQLite](#terzo-esercizio-restful-con-sqlite)
 
 ### Introduzione
 [Flask](https://palletsprojects.com/p/flask/) è un web framework (classificato anche come microframework) scritto in Python e basato sullo strumento Werkzeug WSGI e Jinja2. Una delle caratteristiche importanti di questo framework è che il sistema è basato su trasmissione di dati su HTTP senza ulteriori livelli (esempio: SOAP).
@@ -56,3 +57,6 @@ In security.py definiamo:
 - una funzione chiamata **identity** che prende in input un payload che è il contenuto del token JWT e da cui estrarremo l'ID utente. Estratto il valore andremo a recuperare l'utente specifico che si trova all'interno di **userid_mapping**. Il metodo ritorna l'utente se lo trova, altrimenti non torna nulla.
 
 A questo punto avviare il programma tramite comando `python app.py`. Usiamo Postman per invocare i metodi e verifichiamo che tutto funzioni correttamente. 
+
+### Terzo esercizio RESTful con SQLite
+Il terzo esercizio **restful-sqlite-app** è un programma che espone varie risorse.
