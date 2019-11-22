@@ -7,6 +7,7 @@
 2. [Perché Python?](#perche-python)
 3. [Lezioni](#lezioni)
 4. [Esercizi](#esercizi)
+5. [Guida sulle commit relative al progetto](#guida-sulle-commit-relative-al-progetto)
 
 ### **Introduzione**
 
@@ -50,3 +51,7 @@ Dopo aver elencato questi 6 principali punti ti chiedo: perché non iniziare e s
 ### Esercizi
 
 Per visionare l'indice degli esercizi cliccare [qui](./exercises/indice.md)
+
+### Guida sulle commit relative al progetto
+
+Al seguente [link](https://github.com/asrmarco13/Pycolee-commit-guideline) troverete una guida un cui vengono illustrate le best practices su come scrivere correttamente dei messaggi di commit.
